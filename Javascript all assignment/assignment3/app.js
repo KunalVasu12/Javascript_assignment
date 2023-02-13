@@ -287,7 +287,7 @@ document.write("After 12 Modulus the variable's value by 3:"  + " " + "=" + " " 
           } else {
             num = parseInt(num);
                   }
-document.write("Enter a number to see its multiplication table (leave blank for 5)");
+         document.write("Enter a number to see its multiplication table (leave blank for 5)");
          document.write("<table border='1'>");
         for (let i = 1; i <= 10; i++) {
         document.write("<tr>");
