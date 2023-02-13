@@ -4,170 +4,170 @@
     // USER INPUT & CONDITIONAL STATEMENT
 
 //       Question=01
-// document.write('<h2> Chapter=9-10 </h2>');
-// document.write('<h3> "Question # 01" </h3>');
-// var city = prompt("Enter the name of your city: ");
+document.write('<h2> Chapter=9-10 </h2>');
+document.write('<h3> "Question # 01" </h3>');
+var city = prompt("Enter the name of your city: ");
 
-// if (city === "Karachi") {
-//   document.write("Welcome to the city of lights");
-//  } 
+if (city === "Karachi") {
+  document.write("Welcome to the city of lights");
+ } 
 
-//  //       Question=02
-//  document.write('<h2> "Question # 02" </h2>');
-//  var Gender = prompt("ENter YOUR Gender");
-//  if(Gender === "male"){
-//   document.write('<h3>"Good Morning Sir...❤️"</h3>');
-//  }if(Gender === "female"){
-//   document.write("Good Morning Ma'am...❤️");
-//  }
+ //       Question=02
+ document.write('<h2> "Question # 02" </h2>');
+ var Gender = prompt("ENter YOUR Gender");
+ if(Gender === "male"){
+  document.write('<h3>"Good Morning Sir...❤️"</h3>');
+ }if(Gender === "female"){
+  document.write("Good Morning Ma'am...❤️");
+ }
   
-//  //       Question=03
-// document.write('<h2> "Question # 03" </h2>');
-// var traffic_signal = prompt("ENter the traffic Signal");
-//  if(traffic_signal === "red"){
-//   document.write('<h4>Must Stop</h4>');
-//  }if(traffic_signal === "yellow"){
-//   document.write('<h4>Ready to Move</h4>');
-//  }if(traffic_signal === "green"){
-//   document.write('<h4>Move now</h4>');
-//  }
+ //       Question=03
+document.write('<h2> "Question # 03" </h2>');
+var traffic_signal = prompt("ENter the traffic Signal");
+ if(traffic_signal === "red"){
+  document.write('<h4>Must Stop</h4>');
+ }if(traffic_signal === "yellow"){
+  document.write('<h4>Ready to Move</h4>');
+ }if(traffic_signal === "green"){
+  document.write('<h4>Move now</h4>');
+ }
 
 
  
-// //       Question=04
-// document.write('<h2> "Question # 04" </h2>');
-// var car_fuel = prompt("fuel in car");
-// var fuel= "car";
-// if (car_fuel < 0.25) {
-//     document.write("Please refill the fuel in your car");
-//   } 
+//       Question=04
+document.write('<h2> "Question # 04" </h2>');
+var car_fuel = prompt("fuel in car");
+var fuel= "car";
+if (car_fuel < 0.25) {
+    document.write("Please refill the fuel in your car");
+  } 
 
-//   //      Question=05
-//   document.write('<h2> "Question # 05" </h2>');
-//   document.write("<h2>(A)</h2>")
-//   var a = 4;
-// if (++a === 5){
-// alert("given condition for variable a is true");
-// }
-// document.write("Alert message would be displayed");
+  //      Question=05
+  document.write('<h2> "Question # 05" </h2>');
+  document.write("<h2>(A)</h2>")
+  var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+}
+document.write("Alert message would be displayed");
 
-// document.write("<h2>(B)</h2>");
-// var b = 82;
-// if (b++ === 83){
-// alert("given condition for variable b is true");
-// }
-// document.write("Alert message would be not displayed");
+document.write("<h2>(B)</h2>");
+var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+document.write("Alert message would be not displayed");
 
-// document.write("<h2>(C)</h2>");
-// var c = 12;
-// if (c++ === 13){
-// alert("condition 1 is true");
-// }
-// if (c === 13){
-// alert("condition 2 is true");
-// }
-// if (++c < 14){
-// alert("condition 3 is true");
-// }
-// if(c === 14){
-// alert("condition 4 is true");
-// }
-// document.write("Condition 2 and 4 is true"+ "<br>"+"Alert message would be displayed");
+document.write("<h2>(C)</h2>");
+var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is true");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+document.write("Condition 2 and 4 is true"+ "<br>"+"Alert message would be displayed");
 
-// document.write("<h2>(D)</h2>");
-// var materialCost = 20000;
-// var laborCost = 2000;
-// var totalCost = materialCost + laborCost;
-// if (totalCost === laborCost + materialCost){
-// alert("The cost equals");
-// }
-// document.write("Alert message would be displayed");
+document.write("<h2>(D)</h2>");
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+document.write("Alert message would be displayed");
 
-// document.write("<h2>(E)</h2>");
-// if (true){
-//   alert("True");
-//   }
-//   if (false){
-//   alert("False");
-//   }
-//   document.write("Alert message would be True displayed");
+document.write("<h2>(E)</h2>");
+if (true){
+  alert("True");
+  }
+  if (false){
+  alert("False");
+  }
+  document.write("Alert message would be True displayed");
 
-//   document.write("<h2>(F)</h2>");
-//   if("car" < "cat"){
-//     alert("car is smaller than cat");
-//     } 
-//     document.write("Alert message would be displayed");
+  document.write("<h2>(F)</h2>");
+  if("car" < "cat"){
+    alert("car is smaller than cat");
+    } 
+    document.write("Alert message would be displayed");
 
    
-// //      Question=07
-// document.write('<h2> "Question # 07" </h2>');
+//      Question=07
+document.write('<h2> "Question # 07" </h2>');
 
-// var secretNumber = Math.floor(Math.random() * 10) + 1;
-// var guessedNumber = prompt("Guess the secret number (ranging from 1 to 10):");
+var secretNumber = Math.floor(Math.random() * 10) + 1;
+var guessedNumber = prompt("Guess the secret number (ranging from 1 to 10):");
 
-// if (guessedNumber === secretNumber) {
-//   document.write("Bingo! Correct answer");
-// }
-// else if (Math.abs(guessedNumber - secretNumber) === 1) {
-//   document.write("Close enough to the correct answer");
-// } else {
-//   document.write("Wrong answer. The secret number was", secretNumber);
-// }
+if (guessedNumber === secretNumber) {
+  document.write("Bingo! Correct answer");
+}
+else if (Math.abs(guessedNumber - secretNumber) === 1) {
+  document.write("Close enough to the correct answer");
+} else {
+  document.write("Wrong answer. The secret number was", secretNumber);
+}
 
-// //      Question=08
-// document.write('<h2> "Question # 08" </h2>');
+//      Question=08
+document.write('<h2> "Question # 08" </h2>');
 
-// var number = prompt("Enter a number:");
-// if (number % 3 === 0) {
-//   document.write(number, "is divisible by 3");
-// } else {
-//   document.write(number, "is not divisible by 3");
-// }
+var number = prompt("Enter a number:");
+if (number % 3 === 0) {
+  document.write(number, "is divisible by 3");
+} else {
+  document.write(number, "is not divisible by 3");
+}
 
-// //      Question=09
-// document.write('<h2> "Question # 09" </h2>');
-// var number = prompt("Enter a number:");
-// if (number % 2 === 0) {
-//   document.write(number, "is an even number");
-// } else {
-//   document.write(number, "is an odd number");
-// }
+//      Question=09
+document.write('<h2> "Question # 09" </h2>');
+var number = prompt("Enter a number:");
+if (number % 2 === 0) {
+  document.write(number, "is an even number");
+} else {
+  document.write(number, "is an odd number");
+}
 
-// //      Question=10
-// document.write('<h2> "Question # 10" </h2>');
-// var temperature = prompt("Enter the temperature: ");
+//      Question=10
+document.write('<h2> "Question # 10" </h2>');
+var temperature = prompt("Enter the temperature: ");
 
-// if (temperature > 40) {
-//   document.write("It is too hot outside.");
-// } else if (temperature > 30) {
-//   document.write("The Weather today is Normal.");
-// } else if (temperature > 20) {
-//   document.write("Today’s Weather is cool.");
-// } else if (temperature > 10) {
-//   document.write("OMG! Today’s weather is so Cool.");
-// } else {
-//   document.write("The temperature is below 10°C, it's quite cold.");
-// }
+if (temperature > 40) {
+  document.write("It is too hot outside.");
+} else if (temperature > 30) {
+  document.write("The Weather today is Normal.");
+} else if (temperature > 20) {
+  document.write("Today’s Weather is cool.");
+} else if (temperature > 10) {
+  document.write("OMG! Today’s weather is so Cool.");
+} else {
+  document.write("The temperature is below 10°C, it's quite cold.");
+}
 
-// //      Question=11
-// document.write('<h2> "Question # 11" </h2>');
-// var firstNumber = prompt("Enter the first number: ");
-// var secondNumber = prompt("Enter the second number: ");
-// var operation = prompt("Enter the operation (+, -, *, /, %): ");
+//      Question=11
+document.write('<h2> "Question # 11" </h2>');
+var firstNumber = prompt("Enter the first number: ");
+var secondNumber = prompt("Enter the second number: ");
+var operation = prompt("Enter the operation (+, -, *, /, %): ");
 
-// if (operation === "+") {
-//   document.write(firstNumber + secondNumber);
-// } else if (operation === "-") {
-//   document.write(firstNumber - secondNumber);
-// } else if (operation === "*") {
-//   document.write(firstNumber * secondNumber);
-// } else if (operation === "/") {
-//   document.write(firstNumber / secondNumber);
-// } else if (operation === "%") {
-//   document.write(firstNumber % secondNumber);
-// } else {
-//   document.write("Invalid operation");
-// }
+if (operation === "+") {
+  document.write(firstNumber + secondNumber);
+} else if (operation === "-") {
+  document.write(firstNumber - secondNumber);
+} else if (operation === "*") {
+  document.write(firstNumber * secondNumber);
+} else if (operation === "/") {
+  document.write(firstNumber / secondNumber);
+} else if (operation === "%") {
+  document.write(firstNumber % secondNumber);
+} else {
+  document.write("Invalid operation");
+}
 
 //       Question=01
 document.write('<h2> Chapter=12-13 </h2>');
@@ -211,7 +211,7 @@ if (num > 0) {
 
 //       Question=04
 document.write('<h2> "Question # 04" </h2>');
-var char = prompt("Enter a character: ");
+var char = prompt("Enter a vowel: ");
 if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u' || char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U'){
 document.write(true);
 } else {
